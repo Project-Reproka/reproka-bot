@@ -1,0 +1,13 @@
+[
+  {
+    "name": "thing",
+    "file": "thing.js",
+    "calls": {
+      "init": "callThisWhenStarted",
+      "message": "null",
+      "minutely": "null",
+      "sigint": "null"
+    },
+    "enabled": true
+  }
+]
