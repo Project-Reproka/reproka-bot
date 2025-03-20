@@ -2,7 +2,7 @@ const discord = require('discord.js')
 const components = require('./utils/components.js')
 require('dotenv').config()
 
-const client = new discord.Client( { intents: 16846341 } )
+const client = new discord.Client( { intents: 53608447 } )
 
 client.on('ready', () => {
   console.log(`> ${client.user.tag} is online`)

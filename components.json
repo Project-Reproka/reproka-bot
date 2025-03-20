@@ -1,10 +1,10 @@
 [
   {
-    "name": "thing",
-    "file": "thing.js",
+    "name": "time",
+    "file": "time.js",
     "calls": {
-      "init": "callThisWhenStarted",
-      "message": "null",
+      "init": "null",
+      "message": "pingClock",
       "minutely": "null",
       "sigint": "null"
     },
