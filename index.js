@@ -6,8 +6,8 @@ const client = new discord.Client( { intents: 53608447 } )
 
 client.on('ready', () => {
   console.log(`> ${client.user.tag} is online`)
-  console.log(`> Loaded ${components.counts().loaded}/${components.counts().unloaded} components`)
-
+  console.log(`> Loaded ${components.counts().loaded} components, skipped ${components.counts().unloaded}`)
+  
   client.user.setActivity('over Reproka', { type: discord.ActivityType.Watching })
 
   components.callByTrigger('init', client)
